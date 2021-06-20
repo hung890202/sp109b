@@ -44,7 +44,7 @@ gcc >>> g++
 
 * make
 ```
-1. makeExe
+makeExe
     CC := gcc
     CFLAGS = -std=c99 -O0
     TARGET = run
@@ -57,7 +57,7 @@ gcc >>> g++
     clean:
 	    rm -f *.o *.exe $(TARGET)
 
-2. makeLib
+makeLib
     CC := gcc
     AR := ar
     CFLAGS = -std=c99 -O0
