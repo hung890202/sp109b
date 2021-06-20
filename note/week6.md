@@ -9,7 +9,7 @@
 
 * gcc
 ![](https://github.com/hung890202/sp109b/blob/main/note/picture/gcc.jpg)
-![](https://github.com/hung890202/sp109b/blob/main/note/picture/程式流程圖.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/流程圖.jpeg)
 * command
 ![](https://github.com/hung890202/sp109b/blob/main/note/picture/command.jpg)
 
