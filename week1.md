@@ -11,7 +11,7 @@ gcc sum.c -o sum
 
 * link
 ```
-
+多個檔案>>>執行檔
 gcc main.c sum.c -o run
 
 產生組合語言>>>執行檔
