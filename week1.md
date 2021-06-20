@@ -1,5 +1,5 @@
 ### week1
-*push
+* push
 ```
 master >>> main
 ```
