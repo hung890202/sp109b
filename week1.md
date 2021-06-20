@@ -1,5 +1,5 @@
-###week1###
-+basic
+### week1
+* basic 
 ```
 用gcc將程式碼編譯成執行檔
 gcc sum.c
