@@ -15,7 +15,7 @@
 
 #### EBP(框架暫存器):指著目前函數的進入點
 #### ESP(堆疊暫存器):指著目前堆疊的最後一個
-![](chttps://github.com/hung890202/sp109b/blob/main/note/picture/ebp.png)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/ebp.png)
 
 ### 權利區分
 * 申請者
