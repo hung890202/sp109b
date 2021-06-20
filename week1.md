@@ -1,5 +1,8 @@
 ### week1
-
+*push
+```
+master >>> main
+```
 * basic
 ```
 gcc sum.c
