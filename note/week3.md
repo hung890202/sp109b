@@ -1,4 +1,4 @@
-### week3
+# week3
 
 * lexer sum.c
 ```
