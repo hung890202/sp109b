@@ -7,14 +7,14 @@
 * 高階語言: 
 是高度封裝了的程式語言，與低階語言相對。它是以人類的日常語言為基礎的一種程式語言，使用一般人易於接受的文字來表示，有較高的可讀性，以方便對電腦認知較淺的人亦可以大概明白其內容。由於早期電腦業的發展主要在美國，因此一般的高階語言都是以英語為藍本。
 
-* gcc
+# gcc
 ![](https://github.com/hung890202/sp109b/blob/main/note/picture/gcc.jpg)
 ![](https://github.com/hung890202/sp109b/blob/main/note/picture/流程圖.jpeg)
-* command
+# command
 ![](https://github.com/hung890202/sp109b/blob/main/note/picture/command.jpg)
 
-EBP(框架暫存器):指著目前函數的進入點
-ESP(堆疊暫存器):指著目前堆疊的最後一個
+# EBP(框架暫存器):指著目前函數的進入點
+# ESP(堆疊暫存器):指著目前堆疊的最後一個
 ![](chttps://github.com/hung890202/sp109b/blob/main/note/picture/ebp.png)
 
 ### 權利區分
