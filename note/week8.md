@@ -8,7 +8,7 @@ Unix的前身為1964年開始的Multics，1965年時，貝爾實驗室加入一�
 
 ![](https://github.com/hung890202/sp109b/blob/main/note/picture/unixhistory.jpg)
 
-## vim的使用
+## vim
 * http://kevinchen.synology.me/TechnicalDocuments/About_Linux/Fread_eazyvim.html
 
 1. 只要沒事就按 Esc，讓他離開編輯模式，就可以輸入指令。若想進入編輯模式就按一下 i ，就可以開始編輯及插入文字。
