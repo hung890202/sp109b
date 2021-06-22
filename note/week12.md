@@ -173,7 +173,7 @@ int main() {
 ```
 * result
 ```
-tony Hi // 讀檔點
+tony Hi 
 tony Hi
 tony Hi
 ```
