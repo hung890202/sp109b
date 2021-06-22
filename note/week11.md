@@ -1,3 +1,5 @@
+# week11
+
 ## Producer-consumer problem (生產者消費者問題)
 * 也稱有限緩衝問題（Bounded-buffer problem）
 * 共享固定大小緩衝區的兩個進程「生產者」和「消費者」在實際運行時會發生的問題。
@@ -118,8 +120,6 @@ int main(int argc, char * argv[]) {
 ```
 * 執行結果
 ```
-ubuntu@foo1:~/sp/08-posix/02-thread$ ./philospher
-Switch=false
         Think 2 1
         Eat 2 1
         Think 2 2
