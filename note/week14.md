@@ -2,7 +2,7 @@
 
 
 ## http
-![](https://github.com/hung890202/sp109b/blob/main/note/picture/pw14.png)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/http1.png)
 >是一種用於分佈式、協作式和超媒體訊息系統的應用層協定。HTTP是全球資訊網的數據通信的基礎。
 
 * 客戶端(瀏覽器)請求>>>請求網頁
@@ -25,6 +25,6 @@ X9j; expires=Sun, 17-Jan-2038 19:14:07 GMT; path=/; domain=.google.com
 Connection: keep-alive
 ```
 * HTTP連線示意圖
-![](https://github.com/hung890202/sp109b/blob/main/note/picture/http.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/http.png)
 
 
