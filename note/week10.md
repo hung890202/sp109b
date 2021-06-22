@@ -1,7 +1,7 @@
 # week10
 ## 作業系統
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/作業系統.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/作業系統.jpg)
 
 
 ## 單行程與多工系統
@@ -9,16 +9,16 @@
 * 多工
 同時執行多個程式
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/單行程與多工.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/單行程與多工.jpg)
 
 
 * 當lock不好會出現死結
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/deadlock.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/deadlock.jpg)
 
 * 死結的處理方法
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/deadlock_solution.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/deadlock_solution.jpg)
 
 ## 協同式多工
 
@@ -32,7 +32,7 @@
     * 使用I/O(input/output) >>>進行輸出入動作
 * 作業系統利用輸出入空檔切換行程
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/process_cpu_io.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/process_cpu_io.jpg)
 
 * 利用中斷機制來避免當機
     * 處理狀況 >>>無窮迴圈
@@ -41,7 +41,7 @@
 
 * 行程狀態表示圖
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/process_condition.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/process_condition.jpg)
 
 * 行程同步機制
     * 臨界區間 >>>修改共用變數的程式區塊
@@ -54,7 +54,7 @@
 ## 排程器
 ### 排程方法
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/process_way.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/process_way.jpg)
 
 * 循環分時排程
     * 最常使用的排程
@@ -71,11 +71,11 @@
 
 * 行程v.s執行續
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/process_vs_thread.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/process_vs_thread.jpg)
 
 ## 記憶體管理
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/memory_manage.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/memory_manage.jpg)
 
 * 分配策略
 1. First Fit >>>串列開頭尋找，第一個足夠大的區塊
@@ -85,4 +85,4 @@
 
 * 記憶體不足問題
 
-![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/memory_problem.jpg)
+![](https://github.com/hung890202/sp109b/blob/main/note/picture/memory_problem.jpg)
