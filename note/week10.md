@@ -23,7 +23,7 @@
 
 * 死結的處理方法
 
-[](https://github.com/brian891005/sp109b/blob/main/Note/IMG/deadlock_solution.jpg)
+![](https://github.com/brian891005/sp109b/blob/main/Note/IMG/deadlock_solution.jpg)
 
 ## 協同式多工
 
