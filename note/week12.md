@@ -83,9 +83,9 @@ int main() {
 ```
 * result
 ```
-drwxrwxr-x 2 tony tony  4096 Mar 29 10:19 backup
--rwxrwxr-x 1 tony tony 16792 Jun 16 21:10 execvp1
--rw-rw-r-- 1 tony tony   176 Mar 29 10:19 execvp1.c
+drwxrwxr-x 2 ubuntu ubuntu  4096 Mar 29 10:19 backup
+-rwxrwxr-x 1 ubuntu ubuntu 16792 Jun 16 21:10 execvp1
+-rw-rw-r-- 1 ubuntu ubuntu   176 Mar 29 10:19 execvp1.c
 ```
 ## system1.c
 ```
@@ -100,10 +100,10 @@ int main() {
 * result
     
 ```
--rw-rw-r-- 1 tony tony   260 Jun 10 11:48 mysystem0.c
--rw-rw-r-- 1 tony tony   332 Jun 10 11:48 mysystem1.c
--rwxrwxr-x 1 tony tony 16744 Jun 16 21:35 system1
--rw-rw-r-- 1 tony tony    99 Mar 29 10:19 system1.c
+-rw-rw-r-- 1 ubuntu ubuntu   260 Jun 10 11:48 mysystem0.c
+-rw-rw-r-- 1 ubuntu ubuntu   332 Jun 10 11:48 mysystem1.c
+-rwxrwxr-x 1 ubuntu ubuntu 16744 Jun 16 21:35 system1
+-rw-rw-r-- 1 ubuntu ubuntu    99 Mar 29 10:19 system1.c
 main end!
 ```
 ## mysystem1.c
@@ -200,12 +200,12 @@ int main() {
 ```
 * result
 ```
-tony@foo1:~/sp/08-posix/04-fs/02-fecho$ ./fecho
+ubuntu@foo1:~/sp/08-posix/04-fs/02-fecho$ ./fecho
 >>>>>>>>>>>>>>>>>>>>>a.txt結果>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-tony@foo1:~/sp/08-posix/04-fs/02-fecho$ cat a.txt
+ubuntu@foo1:~/sp/08-posix/04-fs/02-fecho$ cat a.txt
 Hello, File descriptor !
 >>>>>>>>>>>>>>>>>>>>>b.txt結果>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-tony@foo1:~/sp/08-posix/04-fs/02-fecho$ cat b.txt
+ubuntu@foo1:~/sp/08-posix/04-fs/02-fecho$ cat b.txt
 Hello, File descriptor !
 a=0, b=1
 ```
@@ -228,7 +228,7 @@ int main(int argc, char *argv[]) {
 
 * result
 ```
-tony@foo1:~/sp/08-posix/05-myshell/v1$ ./myshell
-myshell:/home/tony/sp/08-posix/05-myshell/v1 $ ls
+ubuntu@foo1:~/sp/08-posix/05-myshell/v1$ ./myshell
+myshell:/home/ubuntu/sp/08-posix/05-myshell/v1 $ ls
 README.md  myshell  myshell.c
 ```
