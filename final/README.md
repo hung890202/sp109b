@@ -1,7 +1,7 @@
 # 期末報告(C4理解)
 
 ## 申明
-程式碼來源自[陳忠誠老師改編的程式](https://gitlab.com/ccc109/sp/-/blob/master/C1-c4/c4.c)
+程式碼來源自[陳忠誠老師改編的程式](https://gitlab.com/ccc109/sp/-/blob/master/C1-c4/c4.c)\
 相關資料[license](https://github.com/hung890202/sp109b/blob/main/LICENSE.md)
 
 ## C4虛擬機
