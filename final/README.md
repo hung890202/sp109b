@@ -53,8 +53,6 @@
     * a：register 暫存器。
     * bp：概念跟 rbp(32 bits)/ebp(64 bits) 相同。
     * pc：program counter，指向當前指令。
-    * instuction：OPCODE。
-    * c4的虛擬機是典型的堆疊虛擬機
 
 * 機器指令：
 
@@ -92,3 +90,46 @@ DIV : a = a DIV pop       |                                    | a = *sp++ /  a;
 MOD : a = a MOD pop       |                                    | a = *sp++ %  a;|
 EXIT : 終止離開           |                                     |  return *sp;|
 
+## 執行C4
+* hello.c
+```
+$ ./c4 test/hello.c
+hello, world
+exit(0) cycle = 9
+```
+* 加`-d`執行
+```
+$./c4 -d test/hello.c       
+1> ENT  0
+2> IMM  6946904
+3> PSH
+4> PRTF
+hello, world
+5> ADJ  1
+6> IMM  0
+7> LEV
+8> PSH
+9> EXIT
+exit(0) cycle = 9
+```
+* 加`-s`執行
+```
+$ ./c4 -s test/hello.c       // 加上 -s 參數可以印出組合語言
+1: #include <stdio.h>
+2:
+3: int main()
+4: {
+5:   printf("hello, world\n");
+    ENT  0
+    IMM  8454232
+    PSH
+    PRTF
+    ADJ  1
+6:   return 0;
+    IMM  0
+    LEV
+7: }
+    LEV
+```
+
+## 參考資料
