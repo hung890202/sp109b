@@ -26,14 +26,12 @@
     * 最後生成虛擬機的代碼。
 
 * C4不支援的語法：
-    * 設定初值 int a=3; int arr = {1,2,3}
-    * 巨集 #define LEN 100
-    * 宣告陣列 int a[10];
-    * 結構 struct
+    * 設定初值 `int a=3; int arr = {1,2,3}`
+    * 巨集 `#define LEN 100`
+    * 宣告陣列 `int a[10];`
+    * 結構 `struct`
 * C4忽略的語法
-    ```
-    #include <stdio.h>
-    ```
+    `#include <stdio.h>`
     >但是預設已經引入一些函式庫例如： printf 。
 
 * 高階指令 (透過呼叫 C 語言函數完成) :
