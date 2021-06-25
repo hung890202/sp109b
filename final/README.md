@@ -2,7 +2,9 @@
 
 ## 申明
 程式碼來源自[陳忠誠老師改編的程式](https://gitlab.com/ccc109/sp/-/blob/master/C1-c4/c4.c)
+相關資料![license](https://github.com/hung890202/sp109b/blob/main/LICENSE.md)
 
+## C4虛擬機
 * C4簡介
     * C4 是 Robert Swierczek 寫的一個小型 C 語言編譯器，全部 527 行的原始碼。
     * 傳統的C語言編譯器，最終都把C語言源碼編譯成可執行文件，也就是二進位的機器碼。
@@ -97,7 +99,7 @@ $ ./c4 test/hello.c
 hello, world
 exit(0) cycle = 9
 ```
-* 加`-d`執行
+* 加`-d`執行 :
 ```
 $./c4 -d test/hello.c       
 1> ENT  0
@@ -112,9 +114,9 @@ hello, world
 9> EXIT
 exit(0) cycle = 9
 ```
-* 加`-s`執行
+* 加`-s`執行 :
 ```
-$ ./c4 -s test/hello.c       // 加上 -s 參數可以印出組合語言
+$ ./c4 -s test/hello.c       
 1: #include <stdio.h>
 2:
 3: int main()
@@ -133,3 +135,8 @@ $ ./c4 -s test/hello.c       // 加上 -s 參數可以印出組合語言
 ```
 
 ## 參考資料
+* [老師的c4.c](https://gitlab.com/ccc109/sp/-/tree/master/C1-c4)
+* [原創程式碼](https://github.com/rswier/c4)
+* [C in four function (c4) Compiler](https://hackmd.io/@srhuang/Bkk2eY5ES)
+* [C4：4個函數，528行代碼實現可自舉的C語言編譯器l](https://kknews.cc/zh-tw/code/zrkmqga.html)
+* [有哪些关于c4 - C in four function 编译器的文章？](https://www.zhihu.com/question/28249756)
