@@ -8,7 +8,7 @@
 * 簡介
 它主要的目的是將便於人編寫、閱讀、維護的進階電腦語言所寫作的原始碼程式，翻譯為電腦能解讀、執行的低階機器語言的程式，也就是執行檔。編譯器將原始程式作為輸入，翻譯產生使用目標語言的等價程式。
 * 流程：\
-原始碼（source code）→ 預處理器（preprocessor）→ 編譯器（compiler）→ 組譯程式（assembler）→ 目的碼（object code）→ 連結器（linker）→ 執行檔（executables）。\
+原始碼 → 預處理器 → 編譯器 → 組譯程式 → 目的碼 → 連結器 → 執行檔。\
 ![](https://github.com/hung890202/sp109b/blob/main/note/picture/compiler.jpg)
 * 編寫步驟：\
     詞彙掃描 → 語法剖析 → 語意分析 → 中間碼產生 → 組合語言產生 → 最佳化。\
