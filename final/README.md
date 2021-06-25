@@ -48,6 +48,13 @@
 |MCMP: memcmp                         |a = memcmp((char *)sp[2], (char *)sp[1], *sp);|
 
 >累積器 a 堆疊暫存器 sp 框架暫存器 bp ，所有 +-*/ 等運算幾乎都是對 a 進行的，而 bp 則可被用來存取區域變數。透過這些指令， c4 可以直接將這些工作轉交 C 語言函式庫來處理。
+* Virtual Machine (c4)
+    * sp：stack frame。
+    * a：register 暫存器。
+    * bp：概念跟 rbp(32 bits)/ebp(64 bits) 相同。
+    * pc：program counter，指向當前指令。
+    * instuction：OPCODE。
+    * c4的虛擬機是典型的堆疊虛擬機
 
 * 機器指令：
 
