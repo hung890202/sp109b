@@ -23,11 +23,11 @@
     * single-pass compiler(僅使每個編譯單元的各個部分通過一次，然後立即將每個部分轉換為其最終機器代碼的編譯器)
     * 最後生成虛擬機的代碼。
 
-* C4不支援的語法：
-    * 結構 struct
+* C4不支援的語法：
     * 設定初值 int a=3; int arr = {1,2,3}
     * 巨集 #define LEN 100
     * 宣告陣列 int a[10];
+    * 結構 struct
 * C4忽略的語法
     ```
     #include <stdio.h>
